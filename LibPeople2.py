@@ -1,3 +1,10 @@
+import os
+os.environ["OMP_NUM_THREADS"] = "1"
+
+import numpy as np
+np.__config__.show()
+
+
 import streamlit as st
 from ultralytics import YOLO
 import cv2
