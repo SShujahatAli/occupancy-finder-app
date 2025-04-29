@@ -1,6 +1,8 @@
-echo "streamlit>=1.31
+echo "numpy==1.24.4
+streamlit>=1.31
 ultralytics==8.0.168
 opencv-python-headless==4.8.0.76
 pandas
 Pillow
 matplotlib" > requirements.txt
+
