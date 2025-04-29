@@ -1,6 +1,6 @@
-streamlit
-ultralytics
-opencv-python-headless
-Pillow
+streamlit>=1.31
+ultralytics==8.0.168
+opencv-python-headless==4.8.0.76
 pandas
+Pillow
 matplotlib
